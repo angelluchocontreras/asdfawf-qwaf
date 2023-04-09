@@ -505,7 +505,7 @@ text-align: center;
         .grid2 {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: 85rem 1fr;
+            grid-template-rows: 96rem 1fr;
             grid-column-gap: 10px;
             }
             /* grid-template-rows: 56rem 1fr; */

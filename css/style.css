@@ -181,6 +181,19 @@ nav ul li{
 footer a{
     font-size: 2rem;
 } */
+footer img{
+    width: 40%;
+
+}
+
+footer{
+    background-color: rgba(28, 183, 170, 0.634);
+    padding: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .seccionContactanos p{
     letter-spacing: 2px;
     
@@ -505,7 +518,7 @@ text-align: center;
         .grid2 {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: 96rem 1fr;
+            grid-template-rows: 70rem 1fr;
             grid-column-gap: 10px;
             }
             /* grid-template-rows: 56rem 1fr; */
@@ -522,16 +535,16 @@ text-align: center;
             width: 100%;
         }
         /* donanos pagina 3--------------------------------------------------------------------------------- */}
-@media (max-width:390px){
+/* @media (max-width:390px){
       .grid2 img{
         display: none;
 
       }
       .grid2{
         grid-template-rows: 1fr 1fr;
-    }} 
+    }}  */
 
-@media (max-width:320px){
+@media (max-width:417px){
     .cards div{
         margin-left: 0px; 
     }
